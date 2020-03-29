@@ -46,7 +46,7 @@ Updating the website and announcing the release:
 * copy sane-backends.html to sane-backends-"old-version".html
 * update sane-supported-devices.html with link to above "old" file
 * rebuild sane-backends.html and sane-mfgs.html (make -C doc html-pages)
-* [TBD] use man2html from http://hydra.nac.uci.edu/indiv/ehood/man2html.html
+* use man2html from https://savannah.nongnu.org/projects/man2html/
   to rebuild html man pages (make -C doc html-man) (no other version works)
 * update announcement to index.html
 * git commit -a && git push
