@@ -250,6 +250,11 @@ flatbed scanners. See
 .BR sane\-epson (5)
 for details.
 .TP
+.B escl
+The SANE escl backend provides support for AirScan/eSCL scanners. See
+.BR sane\-escl (5)
+for details.
+.TP
 .B fujitsu
 The fujitsu backend provides support for most Fujitsu SCSI and USB, flatbed
 and adf scanners. See
