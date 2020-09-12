@@ -50,10 +50,10 @@ gamma4scanimage_LDADD = $(MATH_LIB)
 
 umax_pp_SOURCES  = umax_pp.c
 umax_pp_SOURCES += ../backend/umax_pp_low.c
-umax_pp_LDADD = ../sanei/libsanei.la ../lib/liblib.la $(MATH_LIB)
+umax_pp_LDADD = ../sanei/libsanei.la ../lib/liblib.la ../backend/sane_strstatus.lo $(MATH_LIB)
 
 sane_desc_SOURCES = sane-desc.c
-sane_desc_LDADD = ../sanei/libsanei.la ../lib/liblib.la
+sane_desc_LDADD = ../sanei/libsanei.la ../lib/liblib.la ../backend/sane_strstatus.lo
 
 EXTRA_DIST += hotplug/README hotplug/libusbscanner
 EXTRA_DIST += hotplug-ng/README hotplug-ng/libsane.hotplug
